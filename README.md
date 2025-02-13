@@ -3,7 +3,7 @@
 
 ---
 
-## 📌 **Project Overview**
+##  **Project Overview**
 ✨ **QuoteAPI** is a simple RESTful API that returns **random motivational quotes** via an HTTP GET request.  
 💡 This project demonstrates **API development, backend logic, HTTP requests, and JSON data handling**.
 
@@ -17,14 +17,14 @@
 
 ---
 
-## 📡 **How It Works**
+##  **How It Works**
 ### **🔗 Endpoint:**
 
-### **📌 Example API Request:**
+### ** Example API Request:**
 http://127.0.0.1:5000/quote
 
-### **📌 Example JSON Response:**
-```json
+### ** Example JSON Response:**
+json
 {
     "author": "Albert Einstein",
     "quote": "Life is like riding a bicycle. To keep your balance, you must keep moving."
@@ -54,4 +54,3 @@ Developing QuoteAPI is also part of my **commitment to improving my technical gr
 🔹 **Implement search functionality** to filter quotes by author  
 🔹 **Build a simple frontend UI** to display the quotes visually  
 🔹 **Expand into a larger microservice that integrates external APIs**  
-
