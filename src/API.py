@@ -1,17 +1,36 @@
 """
 -------------------------------------------------------
-[program description]
+====================================================================
+                         QuoteAPI - Random Quote Generator
+====================================================================
+
+Author:       Naina Vij (HypsyGypsy)
+Date:         February 1, 2025
+Description:  A simple REST API that returns a random motivational 
+              quote from a predefined list. Built using Flask, this 
+              API allows users to retrieve quotes by making a GET 
+              request to the `/quote` endpoint.
+
+Usage:
+    - Run the script: `python3 API.py`
+    - Access quotes via: `http://127.0.0.1:5000/quote`
+
+Endpoints:
+    - GET `/quote` : Returns a random quote in JSON format.
+
+Example Response:
+    {
+        "author": "Albert Einstein",
+        "quote": "Life is like riding a bicycle. To keep your balance, you must keep moving."
+    }
+
+Requirements:
+    - Python 3.x
+    - Flask (Install using: `pip install flask`)
 -------------------------------------------------------
-Author:  Your Name
-ID:      Your ID
-Email:   your email@mylaurier.ca
-__updated__ = "2025-02-12"
 -------------------------------------------------------
 """
 # Imports
-
-# Constants
-
 from flask import Flask, jsonify
 import random
 
