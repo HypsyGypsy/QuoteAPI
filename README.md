@@ -54,3 +54,10 @@ Developing QuoteAPI is also part of my **commitment to improving my technical gr
 🔹 **Implement search functionality** to filter quotes by author  
 🔹 **Build a simple frontend UI** to display the quotes visually  
 🔹 **Expand into a larger microservice that integrates external APIs**  
+
+
+---
+## ⚠️ Disclaimer: Local Development Only
+
+This API is currently configured for **local development** and is **not publicly accessible**.  
+To run this API, users must **clone the repository** and run the Flask server on their own machine.
